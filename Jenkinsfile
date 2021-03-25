@@ -6,8 +6,8 @@ import groovy.json.JsonBuilder
 import groovy.json.JsonOutput
 import java.net.URL
 
-String ISPW_Application     = "MKS1"        // Change to your assigned application
-String HCI_Token            = "PFHMKS0"     // Change to your assigned ID
+String ISPW_Application     = "TPZP"        // Change to your assigned application
+String HCI_Token            = "ISPWTPZ"     // Change to your assigned ID
 
 node {
   stage ('Checkout')
