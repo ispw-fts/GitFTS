@@ -25,13 +25,13 @@ node {
     feature2* => QA2, per-branch
     feature3* => QA3, per-branch''',
     //connectionId: '38e854b0-f7d3-4a8f-bf31-2d8bfac3dbd4', // CWC2
-    connectionId: 'd4c33bae-22ce-4703-a494-b5ba3ca0158a', // TD-CWCC
+    connectionId: 'd4c33bae-22ce-4703-a494-b5ba3ca0158a', // TD-CW13
     credentialsId: "${HCI_Token}",
-    gitCredentialsId: 'ec3e192a-3e5f-4c5f-bb40-129b63ce6c23', // Mingh9999
+    gitCredentialsId: 'ee59da9e-49c1-47ec-85c3-9460ae490023', // Mingh9999
     gitRepoUrl: 'https://github.com/msingh9999/GitTXXX.git',
     //runtimeConfig: 'isp8', // CWC2
-    runtimeConfig: 'ispw', // CWCC
-    stream: 'FTSDEMO'
+    runtimeConfig: 'TPZP', // CW13
+    stream: 'PLAY'
   }
 
   stage('Build ISPW assignment')
