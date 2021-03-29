@@ -28,7 +28,7 @@ node {
     connectionId: 'd4c33bae-22ce-4703-a494-b5ba3ca0158a', // TD-CW13
     credentialsId: "${HCI_Token}",
     gitCredentialsId: '8308db3f-3bed-453f-b569-05db1cde895c', // ispw-fts
-    gitRepoUrl: 'https://github.com/msingh9999/GitTXXX.git',
+    gitRepoUrl: 'https://github.com/ispw-fts/GitFTS.git',
     //runtimeConfig: 'isp8', // CWC2
     runtimeConfig: 'TPZP', // CW13
     stream: 'PLAY'
