@@ -7,7 +7,7 @@ import groovy.json.JsonOutput
 import java.net.URL
 
 String ISPW_Application     = "JERY"        // Change to your assigned application
-String HCI_Token            = "ISPWTPZ"     // Change to your assigned ID
+String HCI_Token            = "ee59da9e-49c1-47ec-85c3-9460ae490023"     // Change to your assigned ID
 
 node {
   stage ('Checkout')
