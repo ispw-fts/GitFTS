@@ -30,8 +30,8 @@ node {
     gitCredentialsId: '8308db3f-3bed-453f-b569-05db1cde895c', // ispw-fts
     gitRepoUrl: 'https://github.com/ispw-fts/GitFTS.git',
     //runtimeConfig: 'isp8', // CWC2
-    runtimeConfig: 'TPZP', // CW13
-    stream: 'PLAY'
+    runtimeConfig: 'tpzp', // CW13
+    stream: 'TOPAZ'
   }
 
   stage('Build ISPW assignment')
