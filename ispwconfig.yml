@@ -1,7 +1,7 @@
 !!com.compuware.ispw.cli.model.IspwRoot
 ispwApplication:
-  application: MKS1
-  host: CWCC
+  application: JERY
+  host: CW13
   pathMappings:
   - path: \AMAC
     types:
@@ -52,5 +52,5 @@ ispwApplication:
     - fileExtension: txt
       ispwType: SRPC
   port: 16196
-  runtimeConfig: ISPW
-  stream: FTSDEMO
+  runtimeConfig: tpzp
+  stream: TOPAZ
