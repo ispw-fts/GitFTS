@@ -25,7 +25,7 @@ node {
     feature2* => QA2, per-branch
     feature3* => QA3, per-branch''',
     //connectionId: '38e854b0-f7d3-4a8f-bf31-2d8bfac3dbd4', // CWC2
-    connectionId: 'd4c33bae-22ce-4703-a494-b5ba3ca0158a', // TD-CW13
+    connectionId: 'd393b5dc-45fc-4f92-90f1-1eb43e05cf34', // TD-CW13
     credentialsId: "${HCI_Token}",
     gitCredentialsId: '8308db3f-3bed-453f-b569-05db1cde895c', // ispw-fts
     gitRepoUrl: 'https://github.com/ispw-fts/GitFTS.git',
@@ -37,7 +37,7 @@ node {
   stage('Build ISPW assignment')
   {
     //ispwOperation connectionId: '38e854b0-f7d3-4a8f-bf31-2d8bfac3dbd4', // CWC2
-    ispwOperation connectionId: 'd4c33bae-22ce-4703-a494-b5ba3ca0158a', // TD-CWCC
+    ispwOperation connectionId: 'd393b5dc-45fc-4f92-90f1-1eb43e05cf34', // TD-CWCC
     consoleLogResponseBody: false,
     //credentialsId: 'CWEZXXX-CES', // CWC2
     credentialsId: 'PFHMKS0-CES', // CWCC
