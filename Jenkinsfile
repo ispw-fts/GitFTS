@@ -33,16 +33,7 @@ node {
     stream: 'TOPAZ'
   }
 
-  stage('Build ISPW assignment')
-  {
-    //ispwOperation connectionId: '38e854b0-f7d3-4a8f-bf31-2d8bfac3dbd4', // CWC2
-    ispwOperation connectionId: 'f0ede0d7-9b8d-497a-a20b-b9a2d7f08469', // TD-CWCC
-    consoleLogResponseBody: false,
-    //credentialsId: 'CWEZXXX-CES', // CWC2
-    credentialsId: 'CES', // CWCC
-    ispwAction: 'BuildTask',
-    ispwRequestBody: '''buildautomatically = true'''
-  }
+ 
 
   stage('Deploy to Testing')
   {
