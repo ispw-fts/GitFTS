@@ -51,6 +51,6 @@ ispwApplication:
     types:
     - fileExtension: txt
       ispwType: SRPC
-  port: 16196
+  port: 37733
   runtimeConfig: tpzp
   stream: TOPAZ
