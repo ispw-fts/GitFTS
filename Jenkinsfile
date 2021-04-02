@@ -21,9 +21,9 @@ node {
     gitToIspwIntegration app: "${ISPW_Application}",
     branchMapping: '''*master* => STG, per-branch'
     bug* => EMR, per-branch
-    feature1* => QA1, per-branch
-    feature2* => QA2, per-branch
-    feature3* => QA3, per-branch''',
+    feature1* => DEV1, per-branch
+    feature2* => DEV2, per-branch
+    feature3* => DEV3, per-branch''',
     //connectionId: '38e854b0-f7d3-4a8f-bf31-2d8bfac3dbd4', // CWC2
     connectionId: 'd393b5dc-45fc-4f92-90f1-1eb43e05cf34', // TD-CW13
     credentialsId: "${HCI_Token}",
