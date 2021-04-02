@@ -19,11 +19,10 @@ node {
   stage('Git to ISPW Synchronization')
   {
     gitToIspwIntegration app: "${ISPW_Application}",
-    branchMapping: '''*master* => STG1, per-branch'
-    bug* => EMR, per-branch
-    feature1* => DEV1, per-branch
-    feature2* => DEV2, per-branch
-    feature3* => DEV3, per-branch''',
+    branchMapping: '''*master* => QA, per-branch'
+    bug* => HLD, per-branch
+    feature1* => STG1, per-branch
+    feature2* => STG2, per-branch''',
     //connectionId: '38e854b0-f7d3-4a8f-bf31-2d8bfac3dbd4', // CWC2
     connectionId: 'f0ede0d7-9b8d-497a-a20b-b9a2d7f08469', // TD-CW13
     credentialsId: "${HCI_Token}",
